@@ -1,6 +1,6 @@
 {
   "name": "koishi-plugin-maipi-bot",
-  "description": "maimai bot",
+  "description": "一个用来群里记录机厅有几人的bot",
   "version": "0.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -8,13 +8,27 @@
     "lib",
     "dist"
   ],
+  "author": "xpeng <contact@xpengs.com>",  
+  "contributors": [
+    "xpeng <contact@xpengs.com>"
+  ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhuhansan666/koishi-plugin-systools.git"
+  },
   "scripts": {},
   "keywords": [
-    "chatbot",
+    "maimai",
     "koishi",
     "plugin"
   ],
+  "koishi": {
+    "description": {                        
+      "zh": "一个用来群里记录机厅有几人的bot"
+    },
+    "locales": ["zh"]                
+  },
   "peerDependencies": {
     "koishi": "^4.14.2"
   }
